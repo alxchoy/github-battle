@@ -7,13 +7,24 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.17.0",
+    "code-point-at": "^1.1.0",
+    "has-flag": "^2.0.0",
+    "is-fullwidth-code-point": "^2.0.0",
+    "is-utf8": "^0.2.1",
+    "process-nextick-args": "^1.0.7",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "util-deprecate": "^1.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
